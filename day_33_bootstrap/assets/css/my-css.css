@@ -1,0 +1,27 @@
+.gold{
+    color:gold
+}
+.tomato{
+    color:tomato
+}
+.bg-gold{
+    background: gold;
+}
+.bg-tomato{
+    background: tomato;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right
+}
+.left{
+    text-align: left;
+}
+.justify{
+    text-align: justifyx
+}
+h1{
+    background: gold;
+}
