@@ -1,0 +1,20 @@
+@mixin valid-is-cool{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2em;
+    font-weight: 700;
+}
+@mixin my-style{
+    color:gold;
+    background: tomato;
+    text-align:center;
+}
+@mixin text-style($fz,$fw:400,$fs,$lt,$lh){
+    font-size:$fz;
+    font-weight:$fw;
+    font-style: $fs;
+    letter-spacing:$lt;
+    line-height:$lh
+}
+@mixin pad($v:100px){
+    padding:$v
+}

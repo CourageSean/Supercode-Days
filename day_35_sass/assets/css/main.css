@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+/*Variables*/
+body {
+  margin: 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8%;
+  align-items: baseline;
+}
+header h2 {
+  color: #fff;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  padding-right: 30px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.card {
+  padding: 100px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.card_image {
+  width: 100%;
+}
+.card_item {
+  padding: 10px;
+}
+.card_item:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.card_title:hover + p {
+  color: #666;
+}
+.card_description {
+  color: #333;
+}
+
+ul.step {
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+ul.step > li {
+  padding: 8px 30px;
+}
+ul.step > li:nth-child(1) {
+  background: lightblue;
+}
+ul.step > li:nth-child(2) {
+  background: lightpink;
+}
+ul.step > li:nth-child(3) {
+  background: lightcoral;
+}
+ul.step > li:nth-child(4) {
+  background: lightgreen;
+}
+
+.container, .subscribe {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.large, .subscribe button {
+  background: #5b5be8;
+  color: #ffffff;
+  padding: 10px 100px;
+  border: none;
+  font-size: 3em;
+}
+
+.subscribe button {
+  background: lightpink;
+}
+.subscribe p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 50px 8%;
+}
+.contact h1 {
+  color: gold;
+  background: tomato;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 40px;
+  padding: 100px;
+  color: #806c00;
+}
+
+/*# sourceMappingURL=main.css.map */
