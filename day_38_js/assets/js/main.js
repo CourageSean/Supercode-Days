@@ -203,3 +203,4 @@ console.log(Math.floor(Math.random() * 10)); // 0 -1-2-...9
 
 let a = ["apple", "banana", "kiwi"];
 console.log("🚀 ~ file: main.js ~ line 205 ~ a", a);
+console.log("🚀 ~ file: main.js ~ line 205 ~ a", a);
