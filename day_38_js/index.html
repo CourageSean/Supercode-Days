@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border {
+            border: 1px solid #000
+        }
+
+        .small {
+            width: 100px;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .center {
+            margin: 0 auto
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button onclick="showOrHide()"> Show/hide</button>
+    </div>
+    <img id="bild" src="https://unsplash.it/200" alt="" class="border small">
+    <div id="result1"></div>
+    <button onclick="myFunction()">Say Hi</button>
+    <form action="">
+        <input type="text" onchange="myFunction()">
+    </form>
+
+    <form action="">
+        <input type="number" name="" id="num1">
+        <input type="number" name="" id="num2">
+        <input type="button" value="multipy" onclick="multiply()">
+    </form>
+    <div id="result2"></div>
+    <form action="">
+        <input type="number" name="" id="num3">
+        <input type="number" name="" id="num4">
+        <input type="button" value="add" onclick="add()">
+
+    </form>
+    <div id="result3"></div>
+    <!--Extern Js-->
+    <script src="assets/js/main.js"></script>
+    <script>
+        /*Intern Js*/
+    </script>
+</body>
+
+</html>
