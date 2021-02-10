@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        transition: all 0.5s;
+      }
+
+      section {
+        display: grid;
+        height: 100vh;
+        place-items: center;
+      }
+
+      #quality {
+        width: 500px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello</h1>
+    <form action="">
+      <input type="number" name="" id="age" />
+      <input type="button" value="check" onclick="checkAge()" />
+    </form>
+    <h1 id="result-check"></h1>
+    <section>
+      <div>
+        <form action="">
+          <div>
+            <label for="">AQI : <span id="air-quality"></span></label>
+          </div>
+          <input
+            type="range"
+            name=""
+            id="quality"
+            min="0"
+            max="500"
+            value="52"
+            onchange="checkAirQuality()"
+          />
+        </form>
+        <h1>Level of health concern: <span id="concern"></span></h1>
+        <h1>Level of health effect: <span id="effect"></span></h1>
+      </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
