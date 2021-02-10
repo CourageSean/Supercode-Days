@@ -8,8 +8,7 @@ let txt4 = `
 heLLo
 World
 I am Cool
-.
-`;
+
 console.log(txt4);
 
 //Template literals
@@ -53,7 +52,7 @@ console.log(sentence.substring(9, 11));
 
 // //toUpperCase()
 // //toLowerCase()
-console.log(sentence.toUpperCase());
+//console.log(sentence.toUpperCase());
 
 //concate
 console.log(sentence.concat(sentence));
