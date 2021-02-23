@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1>Good morning</h1>
+    <form action="">
+        <input type="text" name="" id="text">
+        <input type="text" name="" id="word">
+        <input type="radio" name="string" id="davor" checked>
+        <label for="">Davor trennen</label>
+        <input type="radio" name="string" id="danach">
+        <label for="">Danach trennen</label>
+        <input type="button" value="Trennen" onclick="trennen()">
+    </form>
+    <h1 id="before">Before</h1>
+    <h1 id="after">After</h1> -->
+    <h1>Number Guessing game 1-100</h1>
+    <article>
+        <h2>How many rounds you think you can guess the number?</h2>
+        <div id="container">
+            <form action="">
+                <input type="radio" name="rounds" id="four" onchange="getRounds()" checked>
+                <label for="four">4</label>
+                <input type="radio" name="rounds" id="five" onchange="getRounds()">
+                <label for="five">5</label>
+                <div>
+                    <input type="radio" name="rounds" id="six" onchange="getRounds()">
+                    <label for="six">6</label>
+                    <input type="radio" name="rounds" id="custom" onchange="getRounds()">
+                    <label for="custom">Custom</label>
+                    <input type="number" name="" id="custom-input" onchange="getRounds()">
+                </div>
+            </form>
+        </div>
+        <div id="round-container">
+            <span id="round">0</span>/<span id="round-total">5</span>
+        </div>
+    </article>
+    <article>
+        <form action="">
+            <p id="error-message" class="hide"> please give a number</p>
+            <div><input type="number" name="" id="number-user"></div>
+            <div><input type="button" value="guess" id="btn" onclick="play()"> </div>
+        </form>
+    </article>
+    <div id="result"></div>
+    <script src="assets/js/main2.js"></script>
+</body>
+
+</html>
