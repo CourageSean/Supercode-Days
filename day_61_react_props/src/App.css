@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  margin-bottom: 200px; 
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:20px;
+  padding: 50px 4%;
+}
+#car-item{
+  background:lightblue;
+  padding: 10px 20px ;
+}
+.grid img{
+  width: 100%;
+}
+.Collapsible__trigger{
+  background: tomato;
+  display: block;
+  padding: 10px 0;
+}
+.Collapsible__contentOuter{
+  border:5px solid gold
+}
+.Collapsible__contentInner{
+  background:lightblue;
+}
+p{
+  margin: 0;
+}
