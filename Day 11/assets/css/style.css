@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Yepah";
+  src: url(../fonts/Athene.otf);
+}
+
+h1 {
+  font-family: "Yepah";
+}
