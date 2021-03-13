@@ -1,0 +1,15 @@
+p {
+  border: solid 1px black;
+  width: 300px;
+}
+img {
+  display: none;
+}
+p:hover + img {
+  display: block;
+  background-color: red;
+}
+
+p:hover {
+  background-color: red;
+}
