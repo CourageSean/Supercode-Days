@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 20px;
+  /* background:url('/img/bild.jpg') ; */
+}
+table,th,td{
+  border:1px solid #333;
+  border-collapse: collapse;
+}
+table{
+  display: inline-block;
+}
+.pb2{
+  padding-bottom: 3em;
+}
+.pb2 span{
+  width:100px;
+  display: inline-block;
+}
+.pb2 button{
+  padding: 10px 20px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:30px;
+  padding: 100px 8%;
+}
+figure{
+  background: lightblue;
+  margin: 0;
+  text-align: center;
+}
+figure ul{
+  list-style: none;
+  padding-left: 0;
+}
