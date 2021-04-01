@@ -1,0 +1,13 @@
+nav{
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+img{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
