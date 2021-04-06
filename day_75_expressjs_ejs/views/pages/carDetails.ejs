@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../partials/head.ejs' ) %>
+</head>
+
+<body>
+    <%- include ('../partials/nav.ejs' ) %>
+        <h1>CarDetails</h1>
+        <ul>
+            <% for (const key in car) { %>
+                <li>
+                    <%= `${key}: ${car[property]}` %>
+                </li>
+                <% } %>
+        </ul>
+</body>
+
+</html>

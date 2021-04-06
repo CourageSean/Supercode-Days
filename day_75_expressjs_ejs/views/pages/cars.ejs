@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../partials/head.ejs' ) %>
+</head>
+
+<body>
+    <%- include ('../partials/nav.ejs' ) %>
+        <div class="grid">
+            <% carsData.forEach(element=> { %>
+                <div>
+                    <h3>
+                        <%= element.make %>
+                    </h3>
+                    <h3>
+                        <%= element.model %>
+                    </h3>
+                    <a href=<%=`/cars/${element.id}`%>>More Info</a>
+                </div>
+                <% }) %>
+        </div>
+</body>
+
+</html>
