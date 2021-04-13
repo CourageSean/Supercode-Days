@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 500px;
+            margin: 100px auto;
+        }
+
+        input {
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/new" method="post">
+        <div>
+            <input type="text" name="firstName" id="" placeholder="firstName" required>
+            <input type="text" name="lastName" id="" placeholder="lastName" required>
+        </div>
+        <div>
+            <input type="email" name="email" id="" placeholder="email" required>
+        </div>
+        <div>
+            <input type="text" name="phone" id="" placeholder="phone" required>
+        </div>
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+
+</html>

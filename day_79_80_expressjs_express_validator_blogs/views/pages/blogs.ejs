@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/blogs">All</a></li>
+            <li><a href="/addNew">New</a></li>
+        </ul>
+    </nav>
+    <% data.forEach(element=> { %>
+        <% if (element.url.includes('http')) { %>
+            <img src=<%=`${element.url}`%> alt="">
+            <% } else{%>
+                <img src=<%=`/images${element.url}`%> alt="">
+                <% } %>
+
+                    <h1><a href=<%=`/blogs/${element.id}`%>><%=element.title %> </a></h1>
+
+                    <% }) %>
+</body>
+
+</html>
