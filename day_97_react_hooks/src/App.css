@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+section{
+  padding: 100px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.pt3{
+  padding-top: 3em;
+}
